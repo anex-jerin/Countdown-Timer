@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Teko', sans-serif;
+  background-image:url('img.avif') ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  color: rgba(255, 193, 117, 0.596);
+  
+  text-shadow: 1px 1px 20px;
+}
+
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 40vw;
+
+}
+h1{
+    font-size: 5rem;
+  
+}
+h2{
+   margin-bottom: 1rem;
+   font-size: 1.5rem; 
+}
+span{
+    font-size: 1.2rem;
+}
+.count{
+    line-height:5rem ;
+    font-size: 8rem;
+    margin: 1rem 2rem 1rem;
+
+}
